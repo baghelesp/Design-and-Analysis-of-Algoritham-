@@ -18,7 +18,7 @@ int main()
 
     for(k=n-2; k>=0; k--)
     {
-        if(v[k]< v[k-1])
+        if(v[k]< v[k+1])
             break;
     }
 
